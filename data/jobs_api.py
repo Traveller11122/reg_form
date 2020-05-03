@@ -50,7 +50,6 @@ def create_job():
         job=request.json['job'],
         work_size=request.json['work_size'],
         collaborators=request.json['collaborators']
-
     )
     session.add(jobs)
     session.commit()
