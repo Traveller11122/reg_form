@@ -8,11 +8,9 @@ from flask_login import LoginManager, login_user, logout_user, login_required
 from data.register import RegisterForm
 from data.jobs_api import blueprint
 from flask import make_response, jsonify
-from flask_ngrok import run_with_ngrok
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
-run_with_ngrok(app)
 login_manager = LoginManager()
 login_manager.init_app(app)
 
