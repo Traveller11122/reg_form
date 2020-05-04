@@ -3,3 +3,5 @@ sqlalchemy
 flask-login
 flask-wtf
 requests
+SQLAlchemy-serializer
+flask-ngrok
