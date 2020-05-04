@@ -4,3 +4,4 @@ flask-login
 flask-wtf
 requests
 SQLAlchemy-serializer
+gunicorn
